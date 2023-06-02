@@ -9,6 +9,11 @@ on:
     branches: [ "main" ]
   repository_dispatch:
     types: [test_result]
+  delete:
+  discussion:
+  issue_comment:
+  issues:
+  label:
 
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
